@@ -38,9 +38,10 @@ animals = ["lion","tiger","monkey","elephant","flog"]
 filtered_animals = []
 for animal in animals:
     filtered_animals.append(animal.title())
-# print(filtered_animals)
+print(filtered_animals)
 
 filtered_animals2 = [animal.title() for animal in animals]
 
 print(filtered_animals2)
+
 
