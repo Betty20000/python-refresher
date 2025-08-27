@@ -1,31 +1,31 @@
-# class point():
-#     def __init__(self,input1,input2):
-#         self.x=input1
-#         self.y=input2
-# p=point(2,8)
-# p2=point(10,100)
-# plusing= p.y + p2.x
+class point():
+    def __init__(self,input1,input2):
+        self.x=input1
+        self.y=input2
+p=point(2,8)
+p2=point(10,100)
+plusing= p.y + p2.x
     
-# print(p.x)
-# print(p2.x)
-# print(plusing)
-# print(p2.y)
+print(p.x)
+print(p2.x)
+print(plusing)
+print(p2.y)
 
 
 
-# class book():
-#     def __init__(self,booktitle,bookauthur):
-#         self.title=booktitle
-#         self.authur=bookauthur
+class book():
+    def __init__(self,booktitle,bookauthur):
+        self.title=booktitle
+        self.authur=bookauthur
 
-# book1=book("Americanna","Chimmamanda Ngozi")
+book1=book("Americanna","Chimmamanda Ngozi")
 
-# print(book1.title)
-# print(book1.authur)
+print(book1.title)
+print(book1.authur)
 
-# fruits =["orange", "banana","carrot","ovacado"]
+fruits =["orange", "banana","carrot","ovacado"]
 
-# print(len(fruits))
+print(len(fruits))
 
 # A program that adds passangers on a flight if there is enough capacity.
 
@@ -65,4 +65,5 @@ for person in people:
         print(f"{person} Added to flight successfully")
         print(f"{flight.open_seats()} seats remaining")
     else:
+
         print(f"No available seat for {person} ")
