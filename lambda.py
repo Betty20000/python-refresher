@@ -16,8 +16,9 @@ student = [
     {"school": "Bishop gatimu","hobby":"dancing","snacks":"mango"}     
            
            ]
-# def define_sort(place):
-#     return place["snacks"]
-# student.sort(key=define_sort)
+def define_sort(place):
+    return place["snacks"]
+student.sort(key=define_sort)
 student.sort(key=lambda value:value["school"])
 print(student)
+
