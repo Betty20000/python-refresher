@@ -1,4 +1,4 @@
-'''x= int(input("whats x: "))
+x= int(input("whats x: "))
 y=int(input("whats y: "))
 
 if x < y: print("x is less than y")
@@ -6,7 +6,7 @@ if x < y: print("x is less than y")
 elif x > y: print("x is greater than y")
     
 else: print("x is equal y")
-   '''
+   
 # or # not 
 
 b = 50
@@ -49,6 +49,7 @@ def is_even(number):
     else: 
         return False
 main()
+
 
 
 
