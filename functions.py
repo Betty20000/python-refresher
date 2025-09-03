@@ -18,5 +18,12 @@ def is_even(number):
         return True
     else: 
         return False
+
+# Short hand is_even
+'''
+def is_even(n):
+    return n%2 ==0
+'''
 main()
+
 
