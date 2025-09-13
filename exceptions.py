@@ -101,7 +101,7 @@ def get_age4():
         
 age_func4()
 
-# using `prompt` keyword to reuse a function
+# using `prompt` keyword  to reuse a function || NB: 'prompt' can be any name
 
 def age_func5():
     your_age = get_age5("Enter your age: ")
@@ -117,3 +117,4 @@ def get_age5(prompt):
             pass          # 'pass' keyword is caching the error without printing to the user
         
 age_func5()
+
